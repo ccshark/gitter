@@ -1,0 +1,363 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+a:link {
+    color: #36cb5f;
+}
+
+#page-content-wrapper {
+    position: relative;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    padding: 3px 8px;
+    margin: 0 50px 0 0;
+    list-style-type: none;
+}
+.menu li a {
+    text-decoration: none;
+}
+
+.profile-menu {
+    visibility: hidden;
+    background: #c2d1e0; border-radius: 0px; padding: 0;
+    z-index: 200;
+    position: absolute; top: 100%;
+    border-radius: 5px;
+}
+
+.profile-menu li {
+    float: none;
+    border-top: 1px solid #dcedff;
+    border-bottom: 1px solid #d2e4ff;
+    position: relative;
+}
+
+.profile-menu li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+
+.profile-menu li:hover {
+    background-color: #737373;
+}
+
+#start {
+    height				: 35px;
+    width				: 35px;
+    background			: url(../img/home.png) no-repeat center center;
+    top					: 8px;
+    position			: relative;
+    left				: 8px;
+    display				: inline-block;
+}
+
+#profile {
+    height				: 35px;
+    width				: 35px;
+    background			: url(../img/profile.png) no-repeat center center;
+    top					: 8px;
+    position			: relative;
+    left				: 8px;
+    display				: inline-block;
+}
+
+#profile:hover ul {
+    visibility: visible;
+}
+
+#settings {
+    height				: 35px;
+    width				: 35px;
+    background			: url(../img/settings.png) no-repeat center center;
+    top					: 8px;
+    position			: relative;
+    left				: 8px;
+    display				: inline-block;
+}
+
+#users {
+    height				: 35px;
+    width				: 35px;
+    background			: url(../img/users.png) no-repeat center center;
+    top					: 8px;
+    position			: relative;
+    left				: 8px;
+    display				: inline-block;
+}
+
+#tweet {
+    height				: 38px;
+    width				: 38px;
+    background			: url(../img/wright.png) no-repeat center center;
+    top					: 8px;
+    position			: relative;
+    left				: 8px;
+    display				: inline-block;
+}
+
+.news-content-wrapper {
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #bebebe;
+}​
+
+.createTweet-menu {
+    background-color: #00ffff;
+    width: 300px;
+    height: 20px;
+}
+
+.close {
+    height: 20px;
+    width: 20px;
+    background-color: #ff742a;
+}
+
+.send-button {
+    margin: 5px 10px;
+    float: right;
+    border-radius: 3px;
+    color: #ffffff;
+    font: 15px Arial;
+    border: none;
+    cursor: pointer;
+    background-color: #135fb1;
+    padding: 15px;
+}
+
+.tweet-header {
+    margin: 0 0 0 210px;
+    color: #135fb1;
+}
+
+.createTweet {
+    -moz-box-shadow:    3px 3px 5px 6px #181818;
+    -webkit-box-shadow: 3px 3px 5px 6px #181818;
+    box-shadow:         3px 3px 5px 6px #181818;
+    position: fixed;
+    height: 330px;
+    width: 600px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 0;
+    width: 580px;
+    height: 200px;
+    background-color: #135fb1;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    border-style: none;
+    font: 30px san-serif;
+    color: #ffffff;
+    font-style: italic;
+    padding: 10px;
+}
+
+.textarea a {
+    color: #36cb5f;
+}
+
+.tweet {
+    -moz-box-shadow:    3px 3px 5px 6px #181818;
+    -webkit-box-shadow: 3px 3px 5px 6px #181818;
+    box-shadow:         3px 3px 5px 6px #181818;
+    height: 120px;
+    width: auto;
+    margin-top: 15px;
+    background-color: #135fb1;
+    border-radius: 5px;
+}
+
+.text {
+    height: 80px;
+    width: 640px;
+    margin: 0 150px;
+    background-color: #135fb1;
+    position: absolute;
+    float: left;
+    font: 20px san-serif;
+    color: #dcedff;
+    font-style: italic;
+    border-top: 1px solid #ffffff;
+}
+
+.picture {
+    float: left;
+    position: relative;
+    margin: 5px auto 0 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+}
+
+.user {
+    -moz-box-shadow:    3px 3px 5px 6px #181818;
+    -webkit-box-shadow: 3px 3px 5px 6px #181818;
+    box-shadow:         3px 3px 5px 6px #181818;
+    height: 110px;
+    width: auto;
+    margin-top: 15px;
+    background-color: #135fb1;
+    border-radius: 5px;
+}
+
+.follow-button {
+    float: right;
+    padding: 15px;
+    border-radius: 3px;
+    color: #135fb1;
+    font: 15px Arial;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin: 27px 20px;
+    visibility: visible;
+}
+
+.unfollow-button {
+    float: right;
+    padding: 15px;
+    border-radius: 3px;
+    color: #ffffff;
+    font: 15px Arial;
+    border: none;
+    cursor: pointer;
+    background-color: #ff742a;
+    margin: 27px 20px;
+    visibility: visible;
+}
+
+.follow-button-hidden {
+    visibility: hidden;
+}
+
+.settings {
+    -moz-box-shadow:    3px 3px 5px 6px #181818;
+    -webkit-box-shadow: 3px 3px 5px 6px #181818;
+    box-shadow:         3px 3px 5px 6px #181818;
+    margin-top: 10px;
+    height: 330px;
+    width: 800px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.save {
+    float: right;
+    padding: 15px;
+    border-radius: 3px;
+    color: #ffffff;
+    font: 15px Arial;
+    border: none;
+    cursor: pointer;
+    background-color: #135fb1;
+    margin: 20px 0;
+}
+
+.saveInput {
+    font: 12px Arial;
+    text-transform: uppercase;
+    display: block;
+    padding: 3px;
+}
+
+.time {
+    float: right;
+    margin: 5px 10px;
+    font: 14px Arial;
+    color: #ffffff;
+}
+
+h2{
+    font: 20px Arial;
+    color: #ffffff;
+}
+
+.user-name {
+    margin: 0 40px;
+    display: inline;
+}
+
+.settings-header {
+    margin: 0 350px 0;
+    color: #135fb1;
+}
+
+.settingsBox {
+    padding: 10px;
+    background-color: #135fb1;
+
+}
+
+.error-flash {
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+    background-color: #ff742a;
+    border-radius: 3px;
+}
+
+.error-flash p {
+    color: #ffffff;
+    float: left;
+    font: 15px Arial;
+    margin: 0;
+    padding: 4px 0 4px 15px;
+}
+
+.flash {
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+    background-color: #36cb5f;
+    border-radius: 3px;
+}
+
+.flash p {
+    color: #ffffff;
+    float: left;
+    font: 15px Arial;
+    margin: 0;
+    padding: 4px 0 4px 15px;
+}
+
+.profileClose {
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    background-color: #ff742a;
+}
+
+.counter {
+    color: #135fb1;
+    font: 25px Arial;
+    margin: 15px 0 5px 270px;
+}
+
+.username-tag {
+    color: #dcedff;
+    font: 15px Arial;
+    margin: 0 auto;
+    display: inline;
+
+}

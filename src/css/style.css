@@ -1,0 +1,129 @@
+body {
+    background			: url(../img/bg.jpg);
+    background: cover;
+    margin: 0 auto;
+}
+
+#page-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+#banner {
+    width: 800px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #ff742a;
+    border-radius: 3px;
+    -moz-box-shadow:    3px 3px 5px 6px #181818;
+    -webkit-box-shadow: 3px 3px 5px 6px #181818;
+    box-shadow:         3px 3px 5px 6px #181818;
+}
+
+#banner img {
+
+}
+
+.content {
+    width: 500px;
+    margin: 10px 100px;
+    padding: 5px 5px 20px 20px;
+    background-color: #135fb1;
+    -moz-box-shadow:    3px 3px 5px 6px #181818;
+    -webkit-box-shadow: 3px 3px 5px 6px #181818;
+    box-shadow:         3px 3px 5px 6px #181818;
+}
+
+#sign-in {
+
+}
+
+#registration {
+    margin-top: 20px;
+}
+
+h1 {
+    font: 36px sans-serif;
+    margin: 0;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+}
+p {
+    font: 14px Arial;
+    color: #fffff;
+    font-style: italic;
+}
+label {
+    font: 12px Arial;
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff;
+    padding: 3px;
+}
+input[type="text"], input[type="password"], input[type="file"] {
+    display: block;
+    padding: 10px;
+    font: 12px Arial;
+    color: #737373;
+    width: 300px;
+}
+
+#reg {
+    padding: 15px;
+    border-radius: 3px;
+    color: #135fb1;
+    font: 15px Arial;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#sign {
+    padding: 15px;
+    border-radius: 3px;
+    color: #135fb1;
+    font: 15px Arial;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+img {
+    float: right;
+    border-radius: 10px;
+    width: 15%;
+    margin: 10px 10px 0 0;
+    padding: 0;
+}
+
+.reg-error-flash {
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+    background-color: #ff742a;
+    border-radius: 3px;
+}
+
+.reg-error-flash p {
+    color: #ffffff;
+    float: left;
+    font: 15px Arial;
+    margin: 0;
+    padding: 4px 0 4px 15px;
+}
+
+.reg-flash {
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+    background-color: #36cb5f;
+    border-radius: 3px;
+}
+
+.reg-flash p {
+    color: #ffffff;
+    float: left;
+    font: 15px Arial;
+    margin: 0;
+    padding: 4px 0 4px 15px;
+}
+
